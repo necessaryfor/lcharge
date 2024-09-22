@@ -1,6 +1,6 @@
 <?php
 
-$lisans_durumu = 1; 
+$lisans_durumu = 0; 
 
 if ($lisans_durumu == 1) {
     echo "<script type='text/javascript'>
