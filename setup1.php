@@ -1,8 +1,7 @@
 <?php
-// Lisans durumunu ayarlayın (1: lisans bitti, 0: lisans aktif)
-$lisans_durumu = 1; // 1 yazarsa lisans bitti, 0 yazarsa lisans aktif
 
-// Lisansın süresi dolduysa pop-up göster
+$lisans_durumu = 1; 
+
 if ($lisans_durumu == 1) {
     echo "<script type='text/javascript'>
         window.onload = function() {
